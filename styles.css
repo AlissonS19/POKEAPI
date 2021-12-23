@@ -1,0 +1,65 @@
+
+  /*Fondo del cuerpo*/
+  body{
+    margin: 0%;
+    background: url(fondo2.jpg) ;
+    background-size: 100%;
+  }
+
+  /*Fondo del nav*/
+  nav{
+    background: rgb(27, 110, 187);
+    padding: 10px;
+    padding: 12px 17px ;
+  }
+
+  /*Para el color del titulo PokemonApi*/
+  .navbar-brand {
+    font-size: 30px;
+    font-weight:700;
+    color: rgb(223, 223, 84);
+    font-family: Georgia, 'Times New Roman';
+  }
+  
+  /*Para el Tamaño del logo*/
+  #logo {
+    width: 68px;
+    height: 48px;
+    vertical-align: middle;
+  }
+
+  /* Boton de buscar*/   
+  button{
+    background-color: rgb(243, 243, 142);
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 5px 7px;
+    font-size: 18px;
+}
+
+/*Para que el contenedor de las cartas se centren*/
+.container {
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+  /*PARA CENTRAR Y QUE ESTÉ ORDENADO CUANOD LA PANTALLA SE CORRA MÁS PEQUEÑA*/
+  @media screen and (max-width:575px) {
+    nav {
+      -webkit-box-pack: center!important;
+          -ms-flex-pack: center!important;
+              justify-content: center!important;
+    }
+    .form-inline {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+    }
+    button  {
+      margin-top: 10px;
+      padding: 4px 42px;
+    }
+  }
